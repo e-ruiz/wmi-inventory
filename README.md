@@ -1,4 +1,4 @@
 # wmi-inventory
-A VB Script to colect some WMI informations
+A VBScript to colect some WMI informations
 
-See https://github.com/alistairmcmillan/WMI-VBScripts
+Inspiration https://github.com/alistairmcmillan/WMI-VBScripts
