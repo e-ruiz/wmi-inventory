@@ -4,11 +4,10 @@
 '
 Set http = CreateObject("Microsoft.XMLHTTP")
 
-'url = "http://sistemas.itajai.sc.gov.br/webservices/i-educar/alunos/?like=eros"
-'url = "http://" & InputBox("http://")
+url = "http://" & InputBox("http://")
 
 wscript.echo "POST: " + url
-postData = "apikey=" + "6464-4687-6351-7963519"
+postData = "apikey=" + "96464-4687-6351-7963519"
 http.open "POST", url, False
 http.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
 http.send postData
